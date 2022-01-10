@@ -1,14 +1,14 @@
 merce supermercato					
 					
 id	items	date-acquired	date-expiration	prezzo(in centesimi)	codice-prodotto
-1	uova	24/07/2021	13/03/2023	350	56746534
-2	latte	24/07/2021	13/03/2023	50	23454657
-3	carne	24/07/2021	13/03/2023	560	76542341
-4	vino	24/07/2021	13/03/2023	2000	98763643
-5	pasta	24/07/2021	13/03/2023	6500	12145487
+1	uova	24/07/2021	13/03/2023	350			56746534
+2	latte	24/07/2021	13/03/2023	50			23454657
+3	carne	24/07/2021	13/03/2023	560			76542341
+4	vino	24/07/2021	13/03/2023	2000			98763643
+5	pasta	24/07/2021	13/03/2023	6500			12145487
 					
 caratteristiche					
-id: 	Items:	date-acquired:	date-expiration:	price(in centesimi):	codice-prodotto:
-primay_key	varchar(50)	date	date	int	varchar(8)
-	not-null	not-null	not-null	not-null	not-null
+id: 		Items:		date-acquired:	date-expiration:	price(in centesimi):	codice-prodotto:
+primay_key	varchar(50)	date		date			int			varchar(8)
+		not-null	not-null	not-null		not-null		not-null
 				default(0)	
